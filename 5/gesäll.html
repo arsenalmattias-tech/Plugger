@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+   
+    <title>Plugger</title>
+    
+    <link rel="stylesheet" href="gesäll.css">
+
+</head>
+<body>
+    <header class = "banner" > 
+       <h1>
+        <a class="titelLank" title = "Gå Tillbaka" href="index.html">PLUGG<span class="replace">E</span>R</a>
+      </h1>
+    </header>
+<main> 
+    <div class = "plugger"> 
+        <div class = "motivation">
+            <h3>Motivation</h3>
+             <p id = "ordYta"></p>
+            <button id = "motivationK">Klicka Här!</button>
+
+        </div>
+        <div class = "checkList">
+            <h3>CheckLista</h3>
+            <div id="listFunktioner"></div>
+            <button id ="laggTill">Lägg Till</button>
+
+
+        </div>
+        <div class = "anteckning">
+
+
+            <textarea placeholder="Här kan du anteckna..."></textarea>
+
+        </div>
+        <div class = "pomodoro">
+            <h3>Pomodoro</h3>
+            <select id="intervall">
+             <option value="" selected disabled hidden>Välj Intervall</option>
+                 <option value="enkel">40/20</option>
+                 <option value="medium">45/15</option>
+                 <option value="svar">50/10</option>
+             </select>
+
+             <button id="startKnapp" style="display:none;">Starta Timer</button>
+                <button id="pausa" style="display:none;">Pausa</button>
+
+             <div id="timer">00:00</div>
+             <div id = "lagePlugg">Välj intervall och börja plugga!</div>
+
+
+        </div>
+
+
+     </div>
+  
+</main>
+
+
+
+
+
+
+<script src = "gesäll.js"></script>
+</body>
+</html>

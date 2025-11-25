@@ -1,0 +1,236 @@
+@font-face{
+	font-family: 'rubrikFont';
+	src: url('font/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'textFont';
+	src: url('font/OpenSans-Italic.ttf') format('truetype');
+}
+
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+	font-family: 'rubrikFont';
+	color: white;
+	white-space: nowrap; 
+
+}
+
+
+.banner{
+	background-color:#6E5849;
+	padding:10px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	min-height: 90px;
+	font-size: 29px;
+	letter-spacing: 7px;
+}
+
+
+.citat{
+	text-align: left;
+	color: white;
+	font-family: citatFont;
+	font-size: 10px;
+}
+
+.replace{
+	width: 4px;
+	height: 7px; 
+	background: url('bok.png');
+	background-size: 117% 108%;
+	background-repeat: no-repeat;
+    margin-left: -4px;
+    margin-right: 8px;
+	vertical-align: text-top;
+	color: transparent;
+
+
+
+}
+
+.bok{
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin: 120px;
+	height: 570px;
+
+}
+
+.bok img{
+	height: 570px;
+	position: absolute;
+
+}
+.bok p{
+	color: #6E5849;
+	position: relative;
+	right: 180px;
+	width: 250px;
+	bottom: 70px;
+	font-family:textFont;
+	line-height: 1.5;
+}
+
+.andraBlad{
+ position: relative;
+  bottom: 280px;        
+  left: 100px;         
+  padding: 20px 34px;
+  background-color: #6E5849;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 10;       
+	
+}
+
+.titelLank{
+	text-decoration: none;
+	 color: inherit;
+
+}
+
+.plugger{
+	display: grid;
+	grid-template-columns:1fr 2fr;
+	grid-template-rows:4fr 2fr 4fr;
+	gap:0;
+	width: 100vw;
+	height: 100vh;
+
+	grid-template-areas: 	"motivation pomodoro"
+												"checkList pomodoro"
+												"checkList anteckning"
+}
+.plugger > div {
+  border: 3px solid #6E5849;
+ 
+}
+
+.motivation{
+	grid-area: motivation;
+
+
+}
+
+.checkList{
+	grid-area: checkList;
+
+
+
+}
+
+.anteckning{
+	grid-area: anteckning;
+	height: 550px;
+	
+
+}
+
+.pomodoro{
+grid-area: pomodoro;
+
+}
+
+.anteckning textarea{
+	width: 100%;
+	height: 100%;
+	resize: none;
+	outline: none;
+}
+
+ h3{
+	margin-top: 10px;
+	color: #6E5849;
+	position: relative;
+
+}
+
+.listRad{
+	display: flex;
+	padding: 3px;
+	align-items: center;
+	border: 1px solid #6E5849;
+	color: #6E5849;
+
+
+}
+
+.listRad input[type = "text"]{
+	flex: 1;
+	padding: 3px;
+
+}
+
+.listRad button{
+	margin-left: 2.5px;
+	color: #6E5849;
+}
+
+#motivationK{
+	position: relative;
+	margin-top: 50px;
+	color:#6E5849;
+	cursor: pointer;
+	font-size: 15px;
+	background-color: white;
+
+	
+
+}
+
+#ordYta{
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+
+
+
+
+}
+
+#flervalP{
+	position: relative;
+	margin-top: -20px;
+	color:#6E5849;
+	cursor: pointer;
+	font-size: 15px;
+	background-color: white;
+
+}
+
+#intervall{
+		color:#6E5849;
+
+}
+
+#timer{
+	text-align: center;
+	font-size: 55px;
+	color:#6E5849;
+}
+
+
+
+#lagePlugg{
+	position: relative;	
+	margin:0 auto;
+	color:#6E5849;
+	text-align: center;
+
+}
+
+
+
